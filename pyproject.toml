@@ -1,0 +1,21 @@
+[project]
+name = "rag-baseline-app"
+version = "0.1.0"
+description = "Simple Rag App code along with my teacher"
+authors = [
+    {name = "heakknight",email = "heakmeng42@gmail.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi (>=0.141.1,<0.142.0)",
+    "uvicorn[standard] (>=0.52.4,<0.53.0)",
+    "chromadb (>=1.5.9,<2.0.0)",
+    "ollama (>=0.6.2,<0.7.0)",
+    "pypdf (>=6.17.0,<7.0.0)",
+    "numpy (>=2.3,<2.4)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
